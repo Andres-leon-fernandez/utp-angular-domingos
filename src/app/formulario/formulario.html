@@ -1,0 +1,12 @@
+<h4>Te encuentras en el componente Formulario</h4>
+<form class="was-validated">
+    <p>Consultando información de estudiantes de UTP</p>
+    <div class="input-group mb-3">
+        <input type="text" id="txtCodigo" name="txtCodigo"
+            class="form-control" [(ngModel)]="buscado" required>
+        <button class="btn btn-debug btn-success" type="button">
+            Buscar
+        </button>
+        <div class="valid-feedback">Buscando por codigo{{buscado}}</div>
+    </div>
+</form>
